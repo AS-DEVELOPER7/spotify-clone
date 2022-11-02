@@ -1,0 +1,58 @@
+Arguments: 
+  D:\programs\Nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @reactjs/toolkit react-icons react-redux
+
+PATH: 
+  D:\programs\Git\mingw64\bin;D:\programs\Git\usr\bin;C:\Users\hp\bin;C:\Python310\Scripts;C:\Python310;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\programs\Git\cmd;D:\programs\Nodejs;C:\ProgramData\chocolatey\bin;D:\programs\putty;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;D:\programs\Microsoft VS Code\bin;D:\programs\Git\usr\bin;C:\Users\hp\AppData\Roaming\npm;D:\programs\Nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@reactjs%2ftoolkit: Not found
+      at Request.params.callback [as _callback] (C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\hp\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "spotify-clone",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "13.0.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.13",
+      "eslint": "8.26.0",
+      "eslint-config-next": "13.0.0",
+      "postcss": "^8.4.18",
+      "tailwindcss": "^3.2.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

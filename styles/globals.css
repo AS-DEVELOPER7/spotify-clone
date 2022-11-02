@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  .title{
+    @apply text-lg md:text-2xl font-bold pb-3 tracking-widest pl-5
+  }
+  .gridLayout{
+    @apply grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 ml-10 gap-y-6
+  }
+  .image{
+    @apply w-full h-full rounded-3xl cursor-pointer hover:brightness-[0.2] transition-all duration-200 ease-in
+  }
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 7px;
+    margin-top: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(28, 181, 66);
+    border-radius: 1em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
