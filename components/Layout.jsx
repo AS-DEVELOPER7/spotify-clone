@@ -11,7 +11,7 @@ const Layout = ({children}) => {
     <div className='bg-black text-light'>
       <Head>
         <title>
-          spotify-clone
+         Streamify
         </title>
       </Head>
 <main className='min-h-screen flex flex-col w-full'>
